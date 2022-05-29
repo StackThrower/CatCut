@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/navigation_advertise"
+            android:icon="@drawable/ic_advertise"
+            android:title="@string/title_advertise"/>
+
+    <item
+            android:id="@+id/navigation_account"
+            android:icon="@drawable/baseline_perm_identity_white_18dp"
+            android:title="@string/title_profile"/>
+
+
+    <item
+            android:id="@+id/navigation_earn"
+            android:icon="@drawable/ic_earn"
+            android:title="@string/title_earn"/>
+
+</menu>

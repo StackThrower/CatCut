@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="catcut.net.MainTmpActivity">
+    <item android:id="@+id/action_settings_link"
+          android:title="@string/action_settings"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/action_create"
+          android:title="@string/action_settings"
+          android:orderInCategory="100"
+          android:visible="true"
+          android:icon="@drawable/ic_add_new"
+          app:showAsAction="always"/>
+
+    <item android:id="@+id/action_hide_link"
+          android:title="@string/action_settings"
+          android:orderInCategory="100"
+          android:icon="@drawable/ic_hide"
+          android:visible="false"
+          app:showAsAction="always"/>
+
+    <!--<item android:id="@+id/action_buy_link"-->
+          <!--android:title="@string/action_settings"-->
+          <!--android:orderInCategory="100"-->
+          <!--android:icon="@drawable/ic_buy"-->
+          <!--app:showAsAction="always"/>-->
+
+</menu>

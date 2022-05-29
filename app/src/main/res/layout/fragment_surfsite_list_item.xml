@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="6dp"
+        android:layout_marginTop="8dp">
+
+
+    <RelativeLayout
+
+            android:id="@+id/row"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/site_url"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_vertical"
+                android:textAlignment="center"
+                android:ellipsize="end"
+                android:maxLines="100"
+                android:singleLine="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="16dp"/>
+
+        <LinearLayout
+                android:id="@+id/details"
+                android:layout_below="@+id/site_url"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_weight=".1"
+                    android:layout_height="50dp">
+
+                <ImageView android:id="@+id/status_declined"
+                           android:layout_width="wrap_content"
+                           android:layout_height="25dp"
+                           android:layout_marginTop="8.2dp"
+                           android:visibility="gone"
+                           android:tint="@color/colorAccent"
+                           android:src="@drawable/baseline_warning_black_18dp"/>
+
+                <ImageView android:id="@+id/status_verified"
+                           android:layout_width="wrap_content"
+                           android:layout_height="25dp"
+                           android:layout_marginTop="8.2dp"
+                           android:visibility="gone"
+                           android:tint="@color/colorGreen"
+                           android:src="@drawable/baseline_done_black_18dp"/>
+
+                <ImageView android:id="@+id/status_inprogress"
+                           android:layout_width="wrap_content"
+                           android:layout_height="25dp"
+                           android:layout_marginTop="8.2dp"
+                           android:visibility="gone"
+                           android:tint="@color/colorPrimary"
+                           android:src="@drawable/baseline_hourglass_empty_black_18dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_weight=".22"
+                    android:layout_height="50dp">
+
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="25dp"
+                           android:layout_marginTop="8.2dp"
+                           android:tint="@color/colorGreen"
+                           android:src="@drawable/baseline_visibility_black_18dp"/>
+
+                <TextView
+                        android:id="@+id/site_shows"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"
+                />
+
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_weight=".22"
+                    android:layout_height="50dp">
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="25dp"
+                           android:tint="@color/colorAccent"
+                           android:layout_marginTop="8.2dp"
+                           android:src="@drawable/baseline_visibility_off_black_18dp"/>
+
+                <TextView
+                        android:id="@+id/site_clickback"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"
+                />
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_weight=".22"
+                    android:layout_height="50dp">
+
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="25dp"
+                           android:tint="@color/colorGrey"
+                           android:layout_marginTop="8.2dp"
+                           android:src="@drawable/baseline_attach_money_black_18dp"/>
+
+                <TextView
+                        android:id="@+id/adssite_start_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"
+                />
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_weight=".22"
+                    android:layout_height="50dp">
+
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="25dp"
+                           android:layout_marginTop="8.2dp"
+                           android:tint="@color/colorGrey"
+                           android:src="@drawable/baseline_strikethrough_s_black_18dp"/>
+
+                <TextView
+                        android:id="@+id/site_r_budget"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"
+                />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+

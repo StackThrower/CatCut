@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:gravity="center"
+>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <EditText
+                android:id="@+id/create_link_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_create_link"
+                android:imeActionId="6"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textUri"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:minWidth="@dimen/max_button_width"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_gravity="center"
+        />
+        <Button
+                android:id="@+id/generate_link_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:background="@color/colorPrimary"
+                android:text="@string/action_create_link"
+                android:minWidth="@dimen/max_button_width"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+        />
+        <LinearLayout
+                android:id="@+id/login_form"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+            <ProgressBar
+                    android:id="@+id/create_link_progressbar"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="gone"/>
+
+            <TextView android:id="@+id/create_link_edit_label"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="20dp"
+                      android:textAlignment="center"
+                      android:visibility="gone"
+            />
+        </LinearLayout>
+        <Button
+                android:id="@+id/share_link_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:background="@color/colorPrimary"
+                android:text="@string/action_share"
+                android:minWidth="@dimen/max_button_width"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:visibility="gone"
+        />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+        <com.google.android.gms.ads.AdView
+                android:visibility="gone"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3579118192425679/6026132355">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".fragments.AccountFragment">
+
+
+    <LinearLayout
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:id="@+id/login_main_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="-50dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <LinearLayout
+                    android:id="@+id/login_form"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+                <LinearLayout
+                        android:id="@+id/email_login_form"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="@color/colorPrimary"
+                            android:orientation="horizontal"
+                            android:gravity="center_horizontal"
+                            android:textStyle="bold"
+                            android:text="@string/title_ad_balance"/>
+
+                    <TextView
+                            android:id="@+id/adsbalance_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="@color/colorGreen"
+                            android:orientation="horizontal"
+                            android:gravity="center_horizontal"
+                            android:textStyle="bold"
+                            android:text="0 RUB"/>
+
+
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="@color/colorPrimary"
+                            android:orientation="horizontal"
+                            android:gravity="center_horizontal"
+                            android:textStyle="bold"
+                            android:text="@string/title_earned"/>
+
+                    <TextView
+                            android:id="@+id/earned_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="@color/colorGreen"
+                            android:orientation="horizontal"
+                            android:gravity="center_horizontal"
+                            android:textStyle="bold"
+                            android:text="0 RUB"/>
+
+
+                    <Button
+                            android:id="@+id/fill_get_button"
+                            style="?android:textAppearanceSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:minWidth="@dimen/max_button_width"
+                            android:background="@color/colorPrimary"
+                            android:text="@string/replish"
+                            android:layout_gravity="center"
+                            android:textColor="@color/colorWhite"
+                            android:textStyle="bold"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

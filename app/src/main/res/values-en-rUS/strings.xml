@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CatCut</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_create_link">Create link</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_invalid_url">This url is invalid</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="action_log_in">Log In</string>
+    <string name="action_create_new_account">Create New Account</string>
+    <string name="action_successful_new_account">Your account has been created! Log in please.</string>
+    <string name="action_log_in_short">Log In</string>
+    <string name="action_submit">Submit</string>
+    <string name="action_create_link">Create link</string>
+    <string name="action_share">Share</string>
+    <string name="action_sale">Sale</string>
+    <string name="action_partnership">Partnership</string>
+    <string name="action_web">Web</string>
+    <string name="action_referals">Referals</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_advertise">Advertise</string>
+    <string name="title_earn">Earn</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_main">CatCut</string>
+    <string name="title_activity_login_login">Log In</string>
+    <string name="title_activity_login_create">Create New Account</string>
+    <string name="title_complete_sign_up_by_verify_email">We sent to your email with PIN.
+        Complete your registration by filling form above.
+        You has %d attempts.
+    </string>
+    <string name="title_share_using">CatCut Link</string>
+    <string name="title_enable_ad">Advertise</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_header_about">About</string>
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+    <string name="pref_title_message_notifications">New message notifications</string>
+    <string name="pref_title_email">Email</string>
+    <string name="pref_title_version">Version</string>
+    <string name="pref_description_logout">Logout from the system</string>
+    <string name="action_links">Links</string>
+    <string name="title_link">Link</string>
+    <string name="title_type">Type</string>
+    <string name="type_budged">Budged</string>
+    <string name="message_no_internet_connection">No internet connection</string>
+    <string name="message_copied_to_clipboard">Copied to clipboard</string>
+    <string name="title_enable_after_verification">Enable automatically Ad after verification</string>
+    <string name="title_new_page_in_surfing">New page in surfing</string>
+    <string name="title_gettargeting">Geotargeting</string>
+    <string name="title_settings">Settings</string>
+    <string-array name="array_surfsite_type">
+        <item>Web Page</item>
+        <item>Page VK</item>
+        <item>Group VK</item>
+        <item>Pubic page Facebook</item>
+        <item>Odnoklasniki</item>
+        <item>Instagram</item>
+    </string-array>
+    <string-array name="array_surfsite_type_values">
+        <item>0</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>-3</item>
+        <item>-4</item>
+        <item>-5</item>
+    </string-array>
+    <string-array name="array_countries">
+        <item value="0">Any country</item>
+                <item value="16">Australia</item>
+                <item value="15">Austria</item>
+                <item value="18">Azerbaijan</item>
+                <item value="247">Aland Islands</item>
+                <item value="8">Albania</item>
+                <item value="61">Algeria</item>
+                <item value="14">American Samoa</item>
+                <item value="7">Anguilla</item>
+                <item value="11">Angola</item>
+                <item value="3">Andorra</item>
+                <item value="12">Antarctica</item>
+                <item value="6">Antigua and Barbuda</item>
+                <item value="13">Argentina</item>
+                <item value="9">Armenia</item>
+                <item value="17">Aruba</item>
+                <item value="5">Afghanistan</item>
+                <item value="32">Bahamas</item>
+                <item value="21">Bangladesh</item>
+                <item value="20">Barbados</item>
+                <item value="25">Bahrain</item>
+                <item value="36">Belarus</item>
+                <item value="37">Belize</item>
+                <item value="22">Belgium</item>
+                <item value="27">Benin</item>
+                <item value="28">Bermuda</item>
+                <item value="24">Bulgaria</item>
+                <item value="30">Bolivia</item>
+                <item value="253">Bonaire, Sint-Eustatius and Saba</item>
+                <item value="19">Bosnia and Herzegovina</item>
+                <item value="35">Botswana</item>
+                <item value="31">Brazil</item>
+                <item value="104">British Indian Ocean Territory</item>
+                <item value="231">British Virgin Islands</item>
+                <item value="29">Brunei</item>
+                <item value="23">Burkina Faso</item>
+                <item value="26">Burundi</item>
+                <item value="33">Bhutan</item>
+                <item value="234">Vanuatu</item>
+                <item value="228">Vatican</item>
+                <item value="77">United Kingdom</item>
+                <item value="99">Hungary</item>
+                <item value="230">Venezuela</item>
+                <item value="232">US Virgin Islands</item>
+                <item value="224">US Outside Small Islands</item>
+                <item value="216">East Timor</item>
+                <item value="233">Vietnam</item>
+                <item value="76">Gabon</item>
+                <item value="98">Haiti</item>
+                <item value="93">Guyana</item>
+                <item value="84">Gambia</item>
+                <item value="81">Ghana</item>
+                <item value="86">Guadeloupe</item>
+                <item value="90">Guatemala</item>
+                <item value="85">Guinea</item>
+                <item value="92">Guinea-Bissau</item>
+                <item value="56">Germany</item>
+                <item value="248">Guernsey</item>
+                <item value="82">Gibraltar</item>
+                <item value="96">Honduras</item>
+                <item value="94">Hong Kong</item>
+                <item value="78">Grenada</item>
+                <item value="83">Greenland</item>
+                <item value="88">Greece</item>
+                <item value="79">Georgia</item>
+                <item value="91">Guam</item>
+                <item value="58">Denmark</item>
+                <item value="40">Democratic Republic of Congo</item>
+                <item value="250">jersey</item>
+                <item value="57">Djibouti</item>
+                <item value="59">Dominica</item>
+                <item value="60">Dominican Republic</item>
+                <item value="64">Egypt</item>
+                <item value="241">Zambia</item>
+                <item value="243">Zimbabwe</item>
+                <item value="102">Israel</item>
+                <item value="103">India</item>
+                <item value="100">Indonesia</item>
+                <item value="110">Jordan</item>
+                <item value="105">Iraq</item>
+                <item value="106">Iran</item>
+                <item value="101">Ireland</item>
+                <item value="107">Iceland</item>
+                <item value="67">Spain</item>
+                <item value="108">Italy</item>
+                <item value="237">Yemen</item>
+                <item value="52">Cape Verde</item>
+                <item value="122">Kazakhstan</item>
+                <item value="121">Cayman Islands</item>
+                <item value="114">Cambodia</item>
+                <item value="47">Cameroon</item>
+                <item value="38">Canada</item>
+                <item value="182">Qatar</item>
+                <item value="112">Kenya</item>
+                <item value="54">Cyprus</item>
+                <item value="115">Kiribati</item>
+                <item value="48">China</item>
+                <item value="39">Cocos Islands</item>
+                <item value="49">Colombia</item>
+                <item value="116">Comoros</item>
+                <item value="42">Congo</item>
+                <item value="245">Kosovo</item>
+                <item value="50">Costa Rica</item>
+                <item value="44">Côte d’Ivoire</item>
+                <item value="51">Cuba</item>
+                <item value="120">Kuwait</item>
+                <item value="113">Kyrgyzstan</item>
+                <item value="10">Curacao</item>
+                <item value="123">Laos</item>
+                <item value="132">Latvia</item>
+                <item value="129">Lesotho</item>
+                <item value="128">Liberia</item>
+                <item value="124">Lebanon</item>
+                <item value="133">Libya</item>
+                <item value="130">Lithuania</item>
+                <item value="126">Liechtenstein</item>
+                <item value="131">Luxembourg</item>
+                <item value="149">Mauritius</item>
+                <item value="146">Mauritania</item>
+                <item value="137">Madagascar</item>
+                <item value="238">Mayotte</item>
+                <item value="143">Macau</item>
+                <item value="139">Macedonia</item>
+                <item value="151">Malawi</item>
+                <item value="153">Malaysia</item>
+                <item value="140">Mali</item>
+                <item value="150">Maldives</item>
+                <item value="148">Malta</item>
+                <item value="134">Morocco</item>
+                <item value="145">Martinique</item>
+                <item value="138">Marshall Islands</item>
+                <item value="152">Mexico</item>
+                <item value="72">Micronesia</item>
+                <item value="154">Mozambique</item>
+                <item value="136">Moldova</item>
+                <item value="135">Monaco</item>
+                <item value="142">Mongolia</item>
+                <item value="147">Montserrat</item>
+                <item value="141">Myanmar</item>
+                <item value="155">Namibia</item>
+                <item value="164">Nauru</item>
+                <item value="163">Nepal</item>
+                <item value="157">Niger</item>
+                <item value="159">Nigeria</item>
+                <item value="161">Netherlands</item>
+                <item value="160">Nicaragua</item>
+                <item value="165">Niue</item>
+                <item value="166">New Zealand</item>
+                <item value="156">New Caledonia</item>
+                <item value="162">Norway</item>
+                <item value="158">Norfolk</item>
+                <item value="4">OAE</item>
+                <item value="167">Oman</item>
+                <item value="249">Isle of Man</item>
+                <item value="53">Christmas Island</item>
+                <item value="193">Saint Helena</item>
+                <item value="45">Cook Islands</item>
+                <item value="173">Pakistan</item>
+                <item value="180">Palau</item>
+                <item value="178">Palestine</item>
+                <item value="168">Panama</item>
+                <item value="171">Papua New Guinea</item>
+                <item value="181">Paraguay</item>
+                <item value="169">Peru</item>
+                <item value="176">Pitcairn</item>
+                <item value="174">Poland</item>
+                <item value="179">Portugal</item>
+                <item value="177">Puerto Rico</item>
+                <item value="183">Reunion</item>
+                <item value="185">Russia</item>
+                <item value="186">Rwanda</item>
+                <item value="184">Romania</item>
+                <item value="203">El Salvador</item>
+                <item value="236">Samoa</item>
+                <item value="198">San Marino</item>
+                <item value="202">Sao Tome and Principe</item>
+                <item value="187">Saudi Arabia</item>
+                <item value="205">Swaziland</item>
+                <item value="195">Svalbard and Jan Mayen</item>
+                <item value="125">Saint Lucia</item>
+                <item value="118">North Korea</item>
+                <item value="144">Northern Mariana Islands</item>
+                <item value="189">Seychelles</item>
+                <item value="251">Saint-Barthélemy</item>
+                <item value="252">Saint-Martin</item>
+                <item value="175">Saint-Pierre and Miquelon</item>
+                <item value="199">Senegal</item>
+                <item value="229">Saint Vincent and the Grenadines</item>
+                <item value="117">Saint Kitts and Nevis</item>
+                <item value="239">Serbia</item>
+                <item value="192">Singapore</item>
+                <item value="75">Sint Maarten</item>
+                <item value="204">Syria</item>
+                <item value="196">Slovakia</item>
+                <item value="194">Slovenia</item>
+                <item value="188">Solomon Islands</item>
+                <item value="200">Somalia</item>
+                <item value="190">Sudan</item>
+                <item value="201">Suriname</item>
+                <item value="225">US</item>
+                <item value="197">Sierra Leone</item>
+                <item value="211">Tajikistan</item>
+                <item value="210">Thailand</item>
+                <item value="220">Taiwan</item>
+                <item value="221">Tanzania</item>
+                <item value="209">Togo</item>
+                <item value="212">Tokelau</item>
+                <item value="215">Tonga</item>
+                <item value="218">Trinidad and Tobago</item>
+                <item value="219">Tuvalu</item>
+                <item value="214">Tunisia</item>
+                <item value="213">Turkmenistan</item>
+                <item value="206">Turks and Keikos</item>
+                <item value="217">Turkey</item>
+                <item value="223">Uganda</item>
+                <item value="227">Uzbekistan</item>
+                <item value="222">Ukraine</item>
+                <item value="235">Wallis and Futuna</item>
+                <item value="226">Uruguay</item>
+                <item value="73">Faroe Islands</item>
+                <item value="70">Fiji</item>
+                <item value="172">Philippines</item>
+                <item value="69">Finland</item>
+                <item value="71">Falkland Islands</item>
+                <item value="74">France</item>
+                <item value="80">French Guinea</item>
+                <item value="170">French Polynesia</item>
+                <item value="208">French Southern and Antarctic Territories</item>
+                <item value="97">Croatia</item>
+                <item value="41">Central African Republic</item>
+                <item value="207">Chad</item>
+                <item value="242">Montenegro</item>
+                <item value="55">Czech</item>
+                <item value="46">Chile</item>
+                <item value="43">Switzerland</item>
+                <item value="191">Sweden</item>
+                <item value="127">Sri Lanka</item>
+                <item value="62">Ecuador</item>
+                <item value="87">Equatorial Guinea</item>
+                <item value="66">Eritrea</item>
+                <item value="63">Estonia</item>
+                <item value="68">Ethiopia</item>
+                <item value="240">South Africa</item>
+                <item value="89">South Georgia and the South Sandwich Islands</item>
+                <item value="119">South Korea</item>
+                <item value="254">South Sudan</item>
+                <item value="109">Jamaica</item>
+                <item value="111">Japan</item>
+    </string-array>
+    <string-array name="array_countries_values">
+        <item>0</item>
+                <item>16</item>
+                <item>15</item>
+                <item>18</item>
+                <item>247</item>
+                <item>8</item>
+                <item>61</item>
+                <item>14</item>
+                <item>7</item>
+                <item>11</item>
+                <item>3</item>
+                <item>12</item>
+                <item>6</item>
+                <item>13</item>
+                <item>9</item>
+                <item>17</item>
+                <item>5</item>
+                <item>32</item>
+                <item>21</item>
+                <item>20</item>
+                <item>25</item>
+                <item>36</item>
+                <item>37</item>
+                <item>22</item>
+                <item>27</item>
+                <item>28</item>
+                <item>24</item>
+                <item>30</item>
+                <item>253</item>
+                <item>19</item>
+                <item>35</item>
+                <item>31</item>
+                <item>104</item>
+                <item>231</item>
+                <item>29</item>
+                <item>23</item>
+                <item>26</item>
+                <item>33</item>
+                <item>234</item>
+                <item>228</item>
+                <item>77</item>
+                <item>99</item>
+                <item>230</item>
+                <item>232</item>
+                <item>224</item>
+                <item>216</item>
+                <item>233</item>
+                <item>76</item>
+                <item>98</item>
+                <item>93</item>
+                <item>84</item>
+                <item>81</item>
+                <item>86</item>
+                <item>90</item>
+                <item>85</item>
+                <item>92</item>
+                <item>56</item>
+                <item>248</item>
+                <item>82</item>
+                <item>96</item>
+                <item>94</item>
+                <item>78</item>
+                <item>83</item>
+                <item>88</item>
+                <item>79</item>
+                <item>91</item>
+                <item>58</item>
+                <item>40</item>
+                <item>250</item>
+                <item>57</item>
+                <item>59</item>
+                <item>60</item>
+                <item>64</item>
+                <item>241</item>
+                <item>243</item>
+                <item>102</item>
+                <item>103</item>
+                <item>100</item>
+                <item>110</item>
+                <item>105</item>
+                <item>106</item>
+                <item>101</item>
+                <item>107</item>
+                <item>67</item>
+                <item>108</item>
+                <item>237</item>
+                <item>52</item>
+                <item>122</item>
+                <item>121</item>
+                <item>114</item>
+                <item>47</item>
+                <item>38</item>
+                <item>182</item>
+                <item>112</item>
+                <item>54</item>
+                <item>115</item>
+                <item>48</item>
+                <item>39</item>
+                <item>49</item>
+                <item>116</item>
+                <item>42</item>
+                <item>245</item>
+                <item>50</item>
+                <item>44</item>
+                <item>51</item>
+                <item>120</item>
+                <item>113</item>
+                <item>10</item>
+                <item>123</item>
+                <item>132</item>
+                <item>129</item>
+                <item>128</item>
+                <item>124</item>
+                <item>133</item>
+                <item>130</item>
+        <item>126</item>
+                <item>131</item>
+                <item>149</item>
+                <item>146</item>
+                <item>137</item>
+                <item>238</item>
+                <item>143</item>
+                <item>139</item>
+                <item>151</item>
+                <item>153</item>
+                <item>140</item>
+                <item>150</item>
+                <item>148</item>
+                <item>134</item>
+                <item>145</item>
+                <item>138</item>
+                <item>152</item>
+                <item>72</item>
+                <item>154</item>
+                <item>136</item>
+                <item>135</item>
+                <item>142</item>
+                <item>147</item>
+                <item>141</item>
+                <item>155</item>
+                <item>164</item>
+                <item>163</item>
+                <item>157</item>
+                <item>159</item>
+                <item>161</item>
+                <item>160</item>
+                <item>165</item>
+                <item>166</item>
+                <item>156</item>
+                <item>162</item>
+                <item>158</item>
+                <item>4</item>
+                <item>167</item>
+                <item>249</item>
+                <item>53</item>
+                <item>193</item>
+                <item>45</item>
+                <item>173</item>
+                <item>180</item>
+                <item>178</item>
+                <item>168</item>
+                <item>171</item>
+                <item>181</item>
+                <item>169</item>
+                <item>176</item>
+                <item>174</item>
+                <item>179</item>
+                <item>177</item>
+                <item>183</item>
+                <item>185</item>
+                <item>186</item>
+                <item>184</item>
+                <item>203</item>
+                <item>236</item>
+                <item>198</item>
+                <item>202</item>
+                <item>187</item>
+                <item>205</item>
+                <item>195</item>
+                <item>125</item>
+                <item>118</item>
+                <item>144</item>
+                <item>189</item>
+                <item>251</item>
+                <item>252</item>
+                <item>175</item>
+                <item>199</item>
+                <item>229</item>
+                <item>117</item>
+                <item>239</item>
+                <item>192</item>
+                <item>75</item>
+                <item>204</item>
+                <item>196</item>
+                <item>194</item>
+                <item>188</item>
+                <item>200</item>
+                <item>190</item>
+                <item>201</item>
+                <item>225</item>
+                <item>197</item>
+                <item>211</item>
+                <item>210</item>
+                <item>220</item>
+                <item>221</item>
+                <item>209</item>
+                <item>212</item>
+                <item>215</item>
+                <item>218</item>
+                <item>219</item>
+                <item>214</item>
+                <item>213</item>
+                <item>206</item>
+                <item>217</item>
+                <item>223</item>
+                <item>227</item>
+                <item>222</item>
+                <item>235</item>
+                <item>226</item>
+                <item>73</item>
+                <item>70</item>
+                <item>172</item>
+                <item>69</item>
+                <item>71</item>
+                <item>74</item>
+                <item>80</item>
+                <item>170</item>
+                <item>208</item>
+                <item>97</item>
+        <item>41</item>
+                <item>207</item>
+                <item>242</item>
+                <item>55</item>
+                <item>46</item>
+                <item>43</item>
+                <item>191</item>
+                <item>127</item>
+                <item>62</item>
+                <item>87</item>
+                <item>66</item>
+                <item>63</item>
+                <item>68</item>
+                <item>240</item>
+                <item>89</item>
+                <item>119</item>
+                <item>254</item>
+                <item>109</item>
+                <item>111</item>
+    </string-array>
+
+    <string-array name="array_geotarget_type">
+        <item>Global</item>
+        <item>On this country</item>
+        <item>Exclude country</item>
+    </string-array>
+
+    <string-array name="array_budged_type">
+        <item>Unlimited</item>
+        <item>Daily</item>
+        <item>General</item>
+    </string-array>
+    <string name="title_extend_auditory">Extended auditory %d times</string>
+    <string name="title_invite_friend">Invite Friends</string>
+    <string name="action_add">Add</string>
+    <string name="action_edit">Edit</string>
+    <string name="error_not_number">Needed number value</string>
+    <string name="title_budged">Budged</string>
+    <string name="message_internal_error">Internal Error. Contact the owner of the application.</string>
+    <string name="title_policy_privacy">Policy Privacy</string>
+    <string name="privacy_policy_text"><![CDATA[
+        <h3>Privacy Policy<h3/>
+        <b>1. Introduction</b><br/>
+        1. We are registered under, and process personal data in accordance with, the Ukraine data protection laws.
+        2. This Privacy Policy covers the provision of the Services only and not any other companies\' websites which you
+        may access from the Site or by using the Services.<br/>
+        3. If we change the Privacy Policy we will place notices on the Site and post the changes on this page. If you
+        do not accept any changes to the Privacy Policy please stop using the Services and close your account.<br/>
+        <b>2. Personal Information Collected</b><br/>
+        1. We will only collect personal information about you that you have given, either:<br/>
+        * when you register for the Services; or<br/>
+        * if you have previously registered your details with a company which has entered into an agreement with us.<br/>
+        2. When you register to use the Services you will be asked to provide personal information such as your name,
+        postal and e-mail address, contact telephone number, date of birth, gender and other lifestyle information.<br/>
+        <b>3. Use of personal Information</b><br/>
+        1. We may use personal information for: administrative, operational and marketing purposes and to communicate
+        with you about your use of the Services or any changes to the Services. We will only pass on your information to
+        other companies if it is necessary to perform the Services or with your prior consent.<br/>
+        2. If you breach the Terms of Use your personal information may be passed to third parties, such as our legal
+        advisors to the extent necessary to enable those third parties to resolve the matter.<br/>
+        <b>4. Other Information</b><br/>
+        1. We may also collect and disclose information to third parties in aggregate (so that no individual members are
+        identified) for statistical analysis and strategic development purposes.<br/>
+        <b>5. Cookies</b><br/>
+        1. We may use \'cookies\' to collect aggregate information. A \'Cookie\' is a small piece of information sent by our<br/>
+        web server to your web browser, which enables us to record anonymous details and allows you to move around the
+        Site faster. We may use cookies for a number of purposes, for instance to enable us to simplify the logging on
+        process, to help ensure the security and authenticity of members and to enable traffic monitoring. You can find
+        out more about the way cookies work on http://www.cookiecentral.com.<br/>
+        2. Most browsers allow you to turn off the cookie function. If you want to know how to do this, please look at
+        the help menu on your browser. However, if you turn off the cookie function your use of the Services may be
+        impaired.<br/>
+        <b>6. Overseas</b><br/>
+        1. We will only pass on information about you as an individual (as opposed to aggregate information) to third
+        parties overseas to enable us to perform services requested by you.<br/>
+        2. Owing to the global nature of the Internet, the information you provide may be transferred in transit to
+        countries outside the European Economic Area that do not have similar protections in place regarding your data
+        and its use as set out in this policy. However, we do our best to ensure that your personal information is
+        secure.<br/>
+        <b>7. Security</b><br/>
+        1. As required by under Ukraine data protection laws, we follow strict security procedures in the storage and
+        disclosure of information which you have given to us, to prevent unauthorized access. We use industry standard
+        technology to encrypt your personal information. However, the Internet is not a secure environment and we cannot
+        guarantee the security of any information which you send to us.<br/>
+        <b>8. Other websites</b><br/>
+        1. Our Site may contain links to other websites which are outside our control and are not covered by this
+        Privacy Policy. If you access other websites using the links provided, the operators of these websites may
+        collect information from you which will be used by them in accordance with their privacy practices, which may
+        differ from ours.<br/>
+        <b>9. Updating your details</b><br/>
+        1. If you wish to update any of your personal details at any time, for example if you change your e-mail
+        address, or you do not wish to receive information about a particular product or service, or if you wish to
+        close your membership account, please update your membership details as instructed on the Site and your details
+        will be updated as soon as is reasonably practicable.<br/>
+        <b>10. Contact us</b><br/>
+        If you would like to contact us with any queries or comments on our privacy practices, please
+        write to the contact address above or send an e-mail to 0x01code@gmail.com]]>
+    </string>
+    <string name="title_profile">Account</string>
+    <string name="replish">Fill / Get</string>
+    <string name="amount_of_replish">Amount of replish</string>
+    <string name="title_ad_balance">Advertisment balance</string>
+    <string name="title_earned">Earned</string>
+
+</resources>

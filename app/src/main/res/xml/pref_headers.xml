@@ -1,0 +1,27 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+            android:fragment="catcut.net.SettingsActivity$GeneralPreferenceFragment"
+            android:title="@string/pref_header_general"
+            android:icon="@drawable/ic_home_black_24dp"/>
+
+    <header
+            android:id="@+id/share"
+            android:title="@string/title_invite_friend"
+            android:icon="@drawable/ic_notifications_black_24dp"/>
+
+
+    <header
+            android:id="@+id/policy_privacy"
+            android:title="@string/title_policy_privacy"
+            android:icon="@drawable/ic_dashboard_black_24dp"/>
+
+
+    <header
+            android:fragment="catcut.net.SettingsActivity$AboutFragment"
+            android:title="@string/pref_header_about"
+            android:icon="@drawable/ic_info_black_24dp"/>
+
+</preference-headers>
